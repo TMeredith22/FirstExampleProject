@@ -14,7 +14,10 @@ public class ExampleSubsystem extends SubsystemBase {
    * Creates a new ExampleSubsystem.
    */
   public ExampleSubsystem() {
-  }
+  
+    //There is a new solenoid
+     public final ToggledSolenoid climberBrake = new ToggledSolenoid(Constants.CLIMBER_SOL, Constants.CLIMBER_SOL2)
+}
 
   @Override
   public void periodic() {
