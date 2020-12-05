@@ -14,8 +14,6 @@ public class ExampleSubsystem extends SubsystemBase {
    * Creates a new ExampleSubsystem.
    */
   public ExampleSubsystem() {
-
-    //Working out some kinks
   }
 
   @Override
